@@ -1,0 +1,27 @@
+{
+  "name": "docker-pysheng",
+  "version": "1.0.0",
+  "description": "A docker image to run PySheng",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker-compose build",
+    "pysheng-gui": "bash docker-asset/docker-compose-up.sh",
+    "bash": "bash docker-asset/docker-compose-bash.sh",
+    "root-bash": "bash docker-asset/docker-compose-root-bash.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pulipuli.chen%40gmail.com@github.com/pulipulichen/docker-PySheng.git"
+  },
+  "keywords": [
+    "docker",
+    "python",
+    "PySheng"
+  ],
+  "author": "Pulipuli Chen",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/docker-PySheng/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/docker-PySheng#readme"
+}
